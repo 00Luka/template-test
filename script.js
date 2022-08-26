@@ -55,6 +55,8 @@ async function getQuotes() {
     newQuote();
   } catch (error) {
     // Catch error here
+    alert("Sorry, Something went wrong");
+    completeLoading();
   }
 }
 
